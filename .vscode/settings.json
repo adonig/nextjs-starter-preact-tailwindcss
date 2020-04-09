@@ -1,3 +1,5 @@
 {
-  "css.validate": false
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false
 }
