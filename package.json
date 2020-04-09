@@ -3,13 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "analyze": "ANALYZE=true next build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "9.3.4",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "@next/bundle-analyzer": "^9.3.4",
+    "next": "^9.3.4",
+    "preact": "^10.4.0",
+    "preact-render-to-string": "^5.1.5",
+    "react": "github:preact-compat/react#1.0.0",
+    "react-dom": "github:preact-compat/react-dom#1.0.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "@types/node": "^13.11.1",
+    "@types/react": "^16.9.33",
+    "postcss-preset-env": "^6.7.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "tailwindcss": "^1.2.0"
   }
 }
