@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@next/bundle-analyzer": "^9.3.4",
-    "next": "^9.3.4",
+    "next": "^11.1.0",
     "preact": "^10.4.0",
     "preact-render-to-string": "^5.1.5",
     "react": "github:preact-compat/react#1.0.0",
